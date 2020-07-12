@@ -47,3 +47,35 @@ body {
 .inner a:hover {
   color: magenta;
 }
+
+.links {
+  display: flex;
+}
+
+.discord {
+  transition: 0.2s;
+  margin-top: 15px;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #8E15D9 15.63%, rgba(156, 71, 222, 0.31) 89.58%), #E711B8;
+}
+
+.discord:hover {
+  transform: translateY(3px);
+  background: linear-gradient(360deg, #8E15D9 15.63%, rgba(156, 71, 222, 0.31) 89.58%), #E711B8;
+}
+
+.discord a {
+  color: white;
+}
+
+.discord a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 420px) {
+  .links {
+    display: block;
+  }
+}
