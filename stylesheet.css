@@ -66,12 +66,12 @@ body {
   background: linear-gradient(360deg, #8E15D9 15.63%, rgba(156, 71, 222, 0.31) 89.58%), #E711B8;
 }
 
-.discord a {
-  color: white;
+.joinDiscord {
+  color: white!important;
 }
 
-.discord a:hover {
-  color: white;
+.joinDiscord:hover {
+  color: white!important;
 }
 
 @media screen and (max-width: 420px) {
